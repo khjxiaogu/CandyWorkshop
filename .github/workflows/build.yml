@@ -10,6 +10,7 @@ on:
       - settings.gradle
     branches:
       - yf-compat
+  workflow_dispatch: 
 
 jobs:
   build:
