@@ -9,7 +9,7 @@ on:
       - gradle.properties
       - settings.gradle
     branches:
-      - master
+      - yf-compat
 
 jobs:
   build:
@@ -34,7 +34,7 @@ jobs:
       - name: Build
         run: |
           chmod +x gradlew
-          ./gradlew build
+          ./gradlew build runDataYH runDataYF
 
       - name: Read Properties
         id: properties
