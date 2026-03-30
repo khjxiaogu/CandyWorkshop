@@ -34,7 +34,7 @@ jobs:
       - name: Build
         run: |
           chmod +x gradlew
-          ./gradlew build runDataYH runDataYF
+          ./gradlew runDataYH runDataYF
 
       - name: Read Properties
         id: properties
